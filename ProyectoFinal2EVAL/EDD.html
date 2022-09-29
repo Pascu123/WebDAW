@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>¿Que impartimos en Entornos de desarrollo?</title>
+    
+        <!-- Required meta tags -->
+    
+        <meta charset="utf-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Script carrusel -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Course CSS -->
+    
+        <link rel="stylesheet" href="css/EDD.css">
+</head>
+<body>
+	<header>
+		<!-- Info: https://getbootstrap.com/docs/5.0/components/dropdowns/ -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<!-- Logo ies venancio blanco -->
+				<div class="tamHead">
+					<a class="navbar-brand" href="home.html">
+						<img class="imagini" alt="imgInicio" src="img/Logo_header.jpg" />
+					</a>
+				</div>
+
+				<!-- Botón responsive para pantallas pequeñas tipo menú hamburguesa -->
+				<!-- data-bs-target para referenciar a la barra de navegación -->
+			  	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			  	</button>
+
+				<!-- Contenido de la barra de navegación. -->
+			  	<div class="collapse navbar-collapse justify-content-around" id="navbarNavDarkDropdown">
+					<!-- Programación. -->
+					<ul class="navbar-nav">
+				  	<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+					  		Programación
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							<!-- Enlaces a partes específicas de la página. -->
+							<li><a class="dropdown-item" href="prog.html">Inicio</a></li>
+							<li><a class="dropdown-item" href="prog.html#conceptosBasicos">Conceptos Basicos</a></li>
+							<li><a class="dropdown-item" href="prog.html#elementosBasicos">Elementos básicos del lenguaje</a></li>
+						  	<li><a class="dropdown-item" href="prog.html#EDC">Estructuras de control</a></li>
+						  	<li><a class="dropdown-item" href="prog.html#utilObjetos">Utilización de objetos</a></li>
+						  	<li><a class="dropdown-item" href="prog.html#EDA">Estructuras de almacenamientos</a></li>
+						</ul>
+				  	</li>
+					</ul>
+					<!-- BBDD. -->
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="BBDD.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Bases de datos
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							 	<!-- Enlaces a partes específicas de la página. -->
+								 <li><a class="dropdown-item" href="BBDD.html">Inicio</a></li>
+								 <li><a class="dropdown-item" href="BBDD.html#modeloER">Modelo entidad-relación</a></li>
+								 <li><a class="dropdown-item" href="BBDD.html#formasNorm">Formas normales</a></li>
+								 <li><a class="dropdown-item" href="BBDD.html#ddl">SQL-DDL</a></li>
+								 <li><a class="dropdown-item" href="BBDD.html#select">SQL-SELECT</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					  <!-- ED. -->
+					  <ul class="navbar-nav">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="EDD.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Entornos de desarrollo
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							  	<!-- Enlaces a partes específicas de la página. -->
+								<li><a class="dropdown-item" href="EDD.html">Inicio</a></li>
+								<li><a class="dropdown-item" href="EDD.html#desasof">Desarrollo del software</a></li>
+								<li><a class="dropdown-item" href="EDD.html#linux">Linux</a></li>
+								<li><a class="dropdown-item" href="EDD.html#psoftware">Pruebas software</a></li>
+								<li><a class="dropdown-item" href="EDD.html#refac">Refactorización</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					  <!-- LM. -->
+					  <ul class="navbar-nav">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="LM.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Lenguaje de marcas
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							    <!-- Enlaces a partes específicas de la página. -->
+								<li><a class="dropdown-item" href="LM.html">Inicio</a></li>
+								<li><a class="dropdown-item" href="LM.html#intro">Introducción</a></li>
+								<li><a class="dropdown-item" href="LM.html#css">CSS</a></li>
+								<li><a class="dropdown-item" href="LM.html#boo">Bootstrap</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					  <!-- SI. -->
+					  <ul class="navbar-nav">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="SI.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Sistemas informáticos
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							  	<!-- Enlaces a partes específicas de la página. -->
+								  <li><a class="dropdown-item" href="SI.html">Inicio</a></li>
+								  <li><a class="dropdown-item" href="SI.html#hard">Hardware</a></li>
+								  <li><a class="dropdown-item" href="SI.html#red">Redes</a></li>
+								  <li><a class="dropdown-item" href="SI.html#so">Sistemas operativos</a></li>
+								  <li><a class="dropdown-item" href="SI.html#vm">Virtualización</a></li>
+								  <li><a class="dropdown-item" href="SI.html#win">Windows</a></li>
+						  </ul>
+						</li>
+					  </ul>
+			  	</div>
+
+			</div>
+		  </nav>
+	</header>
+
+	<!-- Contenido de la página. -->
+	<div class="container-flex bg-dark">
+		<!-- Título. -->
+		<div class="row d-flex linea justify-content-around">
+			<div class="col text-white m-3 ">
+				<h1>¿Que se imparte en Entornos de desarrollo?</h1>
+			</div>
+		</div>
+
+		<div class="row d-flex linea justify-content-around fondo">
+			<div class="col-8 m-5 ">
+				<!-- Carrusel bootstrap. -->
+				<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+		  				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+						<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+					</div>
+					<div class="carousel-inner w-70">
+		 				<div class="carousel-item active" data-bs-interval="10000">
+							<a href="https://www.ibm.com/es-es/topics/software-development" target="_blank">
+								<img src="img/Entornos de desarrollo/desarrolloSoft.jpg" alt="Aprenderá las fases del desarrollo y las metodologías más usadas entre otras cosas.">
+							</a>
+							<div class="carousel-caption d-none d-md-block">
+								<a href="EDD.html#desasof">
+									<h5>Desarrollo del software</h5>
+								</a>
+							</div>
+		  				</div>
+		  				<div class="carousel-item" data-bs-interval="2000">
+							<a href="https://www.ibm.com/es-es/topics/software-development" target="_blank">
+								<img src="img/Entornos de desarrollo/git.png" class="d-block imgCarrousel" alt="El uso de este repositorio de código usado mundialemnte le servirá de mucha ayuda durante su vida laboral.">
+							</a>
+							<div class="carousel-caption d-none d-md-block">
+								<a href="EDD.html#git">
+									<h5>Git</h5>
+								</a>
+							</div>
+		  				</div>
+		  				<div class="carousel-item">
+							<a href="https://ubuntu.com/download" target="_blank">
+								<img src="img/Entornos de desarrollo/linux.png" class="d-block imgCarrousel" alt="Linux es un sistema operativo muy importante con miyones de usuarios por el mundo y cientos de distribuciones.">
+							</a>
+							<div class="carousel-caption d-none d-md-block">
+								<a href="EDD.html#linux">
+									<h5>Linux(Ubuntu)</h5>
+								</a>
+							</div>
+		  				</div>
+						<div class="carousel-item">
+							<a href="https://junit.org/junit5/" target="_blank">
+								<img src="img/Entornos de desarrollo/pruebasSoft.jpg" class="d-block imgCarrousel" alt="Una fase tan importante como el desarrollo son las pruebas, trabajaremos en este apartado con jUnit.">
+							</a>
+							<div class="carousel-caption d-none d-md-block">
+								<a href="EDD.html#psoftware">
+									<h5>Puebas de software</h5>
+								</a>
+							</div>
+						</div>
+						<div class="carousel-item ">
+							<a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-la-refactorizacion/" target="_blank">
+								<img src="img/Entornos de desarrollo/refactor.png" class="d-block imgCarrousel" alt="Aprender a modificar código eficientemente será muy útil no solo en su vida laboral sino para la asignatura de programación.">
+							</a>
+							<div class="carousel-caption d-none d-md-block">
+								<a href="EDD.html#refac">
+									<h5>Refactorización</h5>
+								</a>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+		  				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  				<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+		  				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  				<span class="visually-hidden">Next</span>
+					</button>
+	  			</div>
+			</div>
+		</div>
+		
+
+		<!-- Apartado 1. -->
+		<div class="row d-flex linea justify-content-around">
+			<div class="col-xs-9 col-sm-10 col-md-10 col-lg-5  col-xl-4 text-white m-3 justify-content-around">
+				<h2 id="desasof">Desarrollo del software:</h2>
+				<p>
+					En este tema trataremos distintos apartados como:
+					<br>
+					-Clasificación del software.
+					<br>
+					-Licencias de software. Software libre y propietario.
+					<br>
+					-Etapas en el desarrollo del software.
+					<br>
+					-Metodologías de desarrollo de software.
+					<br>
+					-Lenguajes de programación, tipos y características.
+					<br>
+					-Obtención de código ejecutable.
+					<br>
+					-Máquinas Virtuales.
+					<br>
+					Puedes aprender más sobre Desarrollo del software pinchando en la imagen o dejar que nosotros le enseñemos.
+					Para ello puede inscribirse para el curso que viene rellenando el siguiente
+					 <a href="formulario.html">formulario.</a>
+				</p>
+			</div>
+
+			<div class="col-xs-9 col-sm-10 col-md-10 col-lg-5  col-xl-5 m-3 justify-content-around">
+				<a href="https://www.ibm.com/es-es/topics/software-development" target="_blank">
+					<img class="imgtam" src="img/Entornos de desarrollo/desarrolloSoft.jpg"/>
+				</a>
+			</div>
+		</div>
+
+		<!-- Apartado 2. -->
+
+		<div class="row d-flex linea justify-content-around">
+			<div class="col-xs-9 col-sm-10 col-md-10 col-lg-5  col-xl-4 text-white m-3 justify-content-around">
+				<h2 id="git">GIT:</h2>
+				<p>
+					Git es un software de control de versiones pensado para aumentar la eficiencia,
+					la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones
+					cuando estas tienen un gran número de archivos de código fuente.
+					<br>
+					<h5>Características:</h5>
+					▸ Los VCS centralizados suponen un punto único de fallo.<br>
+					▸ Los sistemas de Control de Versiones Distribuidos (DVCS) salvan este problema.<br>
+					▸ En un DVCS (como Git, Mercurial, Bazaar o Darcs), los clientes replican completamente el repositorio.<br><br>
+					<h5>Detalle de ESTADOS de un fichero en GIT</h5>
+					▸ Confirmado significa que los datos del archivo están almacenados de manera segura en tu base de datos local (commited).<br>
+					▸ Modificado significa que has modificado el archivo pero todavía no lo has confirmado a tu base de datos (untracked).<br>
+					▸ Preparado significa que has marcado un archivo modificado en su versión actual para que vaya en tu próxima confirmación (staged).<br>
+				</p>
+			</div>
+
+			<div class="col-xs-9 col-sm-10 col-md-10 col-lg-5  col-xl-5 m-3 justify-content-around">
+				<a href="https://www.ibm.com/es-es/topics/software-development" target="_blank">
+					<img class="imgtam" src="img/Entornos de desarrollo/git.jpg" alt="El uso de este repositorio de código usado mundialemnte le servirá de mucha ayuda durante su vida laboral."/>
+				</a>
+			</div>
+		</div>
+
+		<!-- Apartado 3. -->
+
+		<div class="row d-flex linea justify-content-around">
+			<div class="col-xs-9 col-sm-10 col-md-3 col-lg-3  col-xl-3 text-white m-3 justify-content-around">
+				<h2 id="linux">Linux:</h2>
+				<p>
+					<h5>Distribución:</h5>
+					Existen muchas distribuciones de Linux, pero nosotros nos hemos decantado por Ubuntu.
+					Se trata de una de las distribuciones más amables para el usuario,
+					además de ser muy utilizada sobre todo en el mundo de los servidores.
+					En la imagen de la derecha encontrará un enlace para poder descargarla.
+				</p>
+			</div>
+
+			<div class="col-xs-9 col-sm-10 col-md-4 col-lg-4  col-xl-4 m-3 justify-content-around">
+				<a href="https://ubuntu.com/download" target="_blank">
+					<img class="imgtam" src="img/Entornos de desarrollo/ubuntu.jpg" alt="Linux es un sistema operativo muy importante con miyones de usuarios por el mundo y cientos de distribuciones."/>
+				</a>
+			</div>
+
+			<div class="col-xs-9 col-sm-10 col-md-3 col-lg-3  col-xl-3 text-white m-3 justify-content-around">
+				<p>
+					<br><br>
+					<p>
+						Consideramos que es muy importante saber usar linux y la linea de comandos ya que en un futuro no sabemos
+						con que sistema operativo trabajará cada uno de los alumnos en su vida laboral. 
+						Por tanto, conocer distintos sistemas operativos y saber adaptarse a ellos,
+						es una capacidad que consideramos necesaria.
+					</p>
+					
+				</p>
+			</div>
+		</div>
+			
+		<!-- Apartado 4. -->
+
+		<div class="row d-flex linea justify-content-around">
+			<div class="col-xs-9 col-sm-10 col-md-5 col-lg-5 col-xl-5 text-white m-3 justify-content-around">
+				<h2 id="psoftware">Pruebas software:</h2>
+				<a href="https://junit.org/junit5/" target="_blank">
+					<img class="imgtam" src="img/Entornos de desarrollo/junit.png" alt="Una fase tan importante como el desarrollo son las pruebas, trabajaremos en este apartado con jUnit."/>
+				</a>
+			</div>
+
+			<div class="col-xs-9 col-sm-10 col-md-5 col-lg-5  col-xl-5 text-white m-3 justify-content-around">
+				<p>
+					<br>
+					<h5>jUnit:</h5>
+					Se trata de una herramienta muy util en el plano de las pruebas ya que nos permitirá entre otras cosas
+					probar clases sin necesidad de un método main.
+					<br><br>
+					Este software está integrado en el entorno de desarrollo software que estamos usando en la asignatura de programación(Eclipse).
+					<br><br>
+					Aprenderemos a usar esta herramienta de forma práctita, como el resto de apartados de la asignatura y haremos numerosas pruebas y ejercicios con jUnit en clase.
+					<br><br>
+					Los alumnos apreciarán este contenido ya que podrán usarlo como ayuda en otras asignaturas de este mismo FP.
+				</p>
+			</div>
+		</div>
+
+		<!-- Apartado 5. -->
+
+		<div class="row d-flex linea justify-content-around">
+
+			<div class="col-xs-9 col-sm-10 col-md-5 col-lg-5  col-xl-5 text-white m-3 justify-content-around">
+				<h2 id="refac">Refectorización:</h2>
+				<p>
+					La refactorización es una técnica de la ingeniería de software que permite la optimización de un código previamente escrito,
+					por medio de cambios en su estructura interna sin que esto suponga alteraciones en su comportamiento externo;
+					dicho de otro modo, la refactorización no busca ni arreglar errores ni añadir nueva funcionalidad,
+					sino mejorar la compresión del código para facilitar así nuevos desarrollos, la resolución de errores o la adición de alguna funcionalidad al software.
+					La refactorización tiene como objetivo limpiar el código para que sea más fácil de entender y demodificar,
+					permitiendo una mejor lectura para comprender qué es lo que se está realizando. Después de refactorizar el proyecto seguirá ejecutándose igual y obteniendo los mismos resultados.
+				</p>
+			</div>
+
+			<div class="col-xs-9 col-sm-10 col-md-5 col-lg-5 col-xl-5 text-white m-3 justify-content-around">
+				<a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-la-refactorizacion/" target="_blank">
+					<img class="imgtam" src="img/Entornos de desarrollo/refactor.png" alt="Aprender a modificar código eficientemente será muy útil no solo en su vida laboral sino para la asignatura de programación."/>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+	
+
+    <!-- Pie de página.-->
+
+	<footer class="bg-dark text-center text-white">
+        <!-- Container con padding ajustado -->
+        <div class="container p-4 pb-0">
+
+          <!-- Section: Redes sociales -->
+          <section class="mb-4">
+            <!-- Contacto -->
+
+            <p class="text-white">IES Venancio Blanco - C/ Filipinas, 33. 37003 Salamanca - Tel. 923 18 34 41 - e-mail: 37009131@educa.jcyl.es</p>
+
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/iesvenancioblanco" target="_blank" role="button">
+                <img src="img/facebook.png" height="20" width="20" />
+            </a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/IESVENANCIO" target="_blank" role="button">
+                <img src="img/twitter.png" height="20" width="20"/>
+            </a>
+      
+            <!-- Youtube -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCRxoAPC1re2bWqWIDrvmPwA" target="_blank" role="button">
+                <img src="img/youtube.png" height="20" width="20"/>
+            </a>
+          </section>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://www.iesvenancioblanco.es/" target="_blank">iesvenancioblanco.es</a>
+        </div>
+      </footer>
+    
+</body>
+</html>

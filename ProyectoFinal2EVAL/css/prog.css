@@ -1,0 +1,29 @@
+/* Ajusta el tamaño de la cabecera.*/
+.tamHead{
+    display: block;
+    width: 200px;
+    height: 70px;
+}
+/* Ajusta el tamaño de la imagen del venancio blanco.*/
+a:first-child img{
+    width: 200px;
+    height: 100%;
+}
+/* Ajusta la posición de la barra de navegación.*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Ajusta la posición de la barra de navegación al pasar el ratón por encima.*/
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+/* Coloca una linea amarilla a modo de separador*/
+.linea{
+    border-bottom: 2px solid yellow;
+}
+/* Anchura maxima para las imágenes para que no salgan del margen de la página*/
+.imagnmax{
+    max-width: 100%;
+}
+

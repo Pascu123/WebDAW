@@ -1,0 +1,29 @@
+/* Retoca los colores, tamaños, etc de la cabecera.*/
+header{
+    display: flex;
+    margin: 20px;
+    height: auto;
+    height: 80px;
+    min-height: 150px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(46, 40, 40);
+    border: 3px solid yellow;
+}
+/* Tamaño y posición de las imagenes con enlace*/
+.imgLink{
+  display: block;
+  width: 100%;
+}
+/* Color del texto de las tarjetas*/
+.card-text{
+  color: azure;
+}
+/* Color del título de las tarjetas*/
+.card-title{
+  color: white;
+}

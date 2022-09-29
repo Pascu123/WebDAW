@@ -1,0 +1,79 @@
+/* Ajusta el tamaño de la cabecera.*/
+.tamHead{
+    display: block;
+    width: 200px;
+    height: 70px;
+}
+/* Ajusta el tamaño de la imagen del venancio blanco.*/
+a:first-child img{
+    width: 200px;
+    height: 100%;
+}
+/* Ajusta la posición de la barra de navegación.*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Ajusta la posición de la barra de navegación al pasar el ratón por encima.*/
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+/* Coloca una linea amarilla a modo de separador*/
+.linea{
+  border-bottom: 2px solid yellow;
+}
+/* Transición de ampliar la imagen*/
+.amplia{
+  max-height: 200px;
+    transition-duration: 1s;
+
+}
+.amplia:hover{
+    transform: scale(1.1);
+
+}
+
+/* Ajusta los cuadros de la tabla grid*/
+.grid-container {
+
+    display: grid;
+  
+    grid-template-columns: auto auto auto;
+  
+    padding: 10px;
+    
+  }
+/* Ajusta los items de la tabla grid y su color y tamaño de letra*/
+  .grid-item {
+    color: white;
+  
+    font-size: 30px;
+  
+    text-align: center;
+    margin: 40px;
+  
+  }
+/* Ajusta un cuadro en específico*/
+  .requisitos{
+    font-size: 20px;
+    grid-column: 2 / 4;
+    grid-row: 1;
+  }
+/* Ajusta un cuadro en específico*/
+  .tamder{
+    font-size: 20px;
+    grid-column: 4;
+    grid-row: 2/3;
+  }
+/* Ajusta un cuadro en específico*/
+.imagenGrid{
+      grid-row: 2/3;
+      grid-column: 3/4;
+      margin: 40px;
+}
+/* Ajusta un cuadro en específico*/
+.masInfo{
+    font-size: 20px;
+    grid-column: 1 / 3;
+    grid-row: 2/3;
+  }

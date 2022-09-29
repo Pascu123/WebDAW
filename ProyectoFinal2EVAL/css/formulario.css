@@ -1,0 +1,60 @@
+/* Ajusta el tamaño de la cabecera.*/
+.tamHead{
+    display: block;
+    width: 200px;
+    height: 70px;
+}
+/* Ajusta el tamaño de la imagen del venancio blanco.*/
+a:first-child img{
+    width: 200px;
+    height: 100%;
+}
+/* Coloca una linea amarilla a modo de separador*/
+.linea{
+    width: 100%;
+    border-bottom: 2px solid yellow;
+}
+/* Ajusta la posición de la barra de navegación.*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Ajusta la posición de la barra de navegación al pasar el ratón por encima.*/
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+/* Elimina el borde por defecto y modifica los colores de las cajas para introducir texto en el formulario */
+.sinborde {
+    margin: 5%;
+    width: 80%;
+    background-color: #212529;
+    color: aliceblue;
+    border: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+/* Retoques para cuando tienes seleccionados los elementos sin borde */
+  .sinborde:focus {
+    outline: 0;
+    border-bottom: 2px solid yellow;
+  }
+/* Cambia de color los elementos a los que nos les quito el borde */
+.conborde{
+    margin: 5%;
+    width: 80%;
+    background-color: rgb(0, 0, 19);
+    color: aliceblue;
+}
+/* Retoques para cuando tienes seleccionados los elementos con borde */
+.conborde:focus{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+/* Retoques para cuando pasas el ratón por encima de los elementos con borde */
+.conborde:hover{
+    background-color: rgb(0, 0, 19);
+    color: aliceblue;
+}
+
+.margen{
+    margin-left: 5%;
+}

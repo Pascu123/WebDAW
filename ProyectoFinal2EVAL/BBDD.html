@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>¿Que impartimos en Bases de datos?</title>
+    
+        <!-- Required meta tags -->
+    
+        <meta charset="utf-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+		<!-- Script carrusel -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Course CSS -->
+    
+        <link rel="stylesheet" href="css/BBDD.css">
+</head>
+<body>
+	<header>
+		<!-- Info: https://getbootstrap.com/docs/5.0/components/dropdowns/ -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<!-- Logo ies venancio blanco -->
+				<div class="tamHead">
+					<a class="navbar-brand" href="home.html">
+						<img class="imagini" alt="imgInicio" src="img/Logo_header.jpg" />
+					</a>
+				</div>
+
+				<!-- Botón responsive para pantallas pequeñas tipo menú hamburguesa -->
+				<!-- data-bs-target para referenciar a la barra de navegación -->
+			  	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			  	</button>
+
+				<!-- Contenido de la barra de navegación. -->
+			  	<div class="collapse navbar-collapse justify-content-around" id="navbarNavDarkDropdown">
+					<!-- Programación. -->
+					<ul class="navbar-nav">
+				  	<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+					  		Programación
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							<!-- Enlaces a partes específicas de la página. -->
+							<li><a class="dropdown-item" href="prog.html">Inicio</a></li>
+							<li><a class="dropdown-item" href="prog.html#conceptosBasicos">Conceptos Basicos</a></li>
+							<li><a class="dropdown-item" href="prog.html#elementosBasicos">Elementos básicos del lenguaje</a></li>
+						  	<li><a class="dropdown-item" href="prog.html#EDC">Estructuras de control</a></li>
+						  	<li><a class="dropdown-item" href="prog.html#utilObjetos">Utilización de objetos</a></li>
+						  	<li><a class="dropdown-item" href="prog.html#EDA">Estructuras de almacenamientos</a></li>
+						</ul>
+				  	</li>
+					</ul>
+					<!-- BBDD. -->
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="BBDD.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Bases de datos
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							 	<!-- Enlaces a partes específicas de la página. -->
+								<li><a class="dropdown-item" href="BBDD.html">Inicio</a></li>
+								<li><a class="dropdown-item" href="BBDD.html#modeloER">Modelo entidad-relación</a></li>
+								<li><a class="dropdown-item" href="BBDD.html#formasNorm">Formas normales</a></li>
+								<li><a class="dropdown-item" href="BBDD.html#ddl">SQL-DDL</a></li>
+								<li><a class="dropdown-item" href="BBDD.html#select">SQL-SELECT</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					  <!-- ED. -->
+					  <ul class="navbar-nav">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="EDD.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Entornos de desarrollo
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							  	<!-- Enlaces a partes específicas de la página. -->
+								  <li><a class="dropdown-item" href="EDD.html">Inicio</a></li>
+								  <li><a class="dropdown-item" href="EDD.html#desasof">Desarrollo del software</a></li>
+								  <li><a class="dropdown-item" href="EDD.html#linux">Linux</a></li>
+								  <li><a class="dropdown-item" href="EDD.html#psoftware">Pruebas software</a></li>
+								  <li><a class="dropdown-item" href="EDD.html#refac">Refactorización</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					  <!-- LM. -->
+					  <ul class="navbar-nav">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="LM.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Lenguaje de marcas
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							    <!-- Enlaces a partes específicas de la página. -->
+								<li><a class="dropdown-item" href="LM.html">Inicio</a></li>
+								<li><a class="dropdown-item" href="LM.html#intro">Introducción</a></li>
+								<li><a class="dropdown-item" href="LM.html#css">CSS</a></li>
+								<li><a class="dropdown-item" href="LM.html#boo">Bootstrap</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					  <!-- SI. -->
+					  <ul class="navbar-nav">
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="SI.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Sistemas informáticos
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							  	<!-- Enlaces a partes específicas de la página. -->
+								<li><a class="dropdown-item" href="SI.html">Inicio</a></li>
+								<li><a class="dropdown-item" href="SI.html#hard">Hardware</a></li>
+								<li><a class="dropdown-item" href="SI.html#red">Redes</a></li>
+								<li><a class="dropdown-item" href="SI.html#so">Sistemas operativos</a></li>
+								<li><a class="dropdown-item" href="SI.html#vm">Virtualización</a></li>
+								<li><a class="dropdown-item" href="SI.html#win">Windows</a></li>
+						  </ul>
+						</li>
+					  </ul>
+			  	</div>
+
+			</div>
+		  </nav>
+	</header>
+
+	<!-- Contenido de la página. -->
+	<div class="container-flex bg-dark">
+		<!-- Título. -->
+		<div class="row d-flex linea justify-content-around">
+			<div class="col text-white m-3 ">
+				<h1>¿Que se imparte en Bases de datos?</h1>
+			</div>
+		</div>
+
+		<div class="row d-flex linea justify-content-around">
+			<div class="col-xs-11 col-sm-11 col-md-5 col-lg-5  col-xl-5 text-white  m-3 ">
+				<h2 id="modeloER">Modelo entidad-relación:</h2>
+				<p>
+					Un modelo entidad-relación es una herramienta para el modelo de datos,
+					la cual facilita la representación de entidades de una base de datos.
+					<br><br>
+					Durante gran parte del primer trimestre, nos dedicamos a entender y realizar este tipo de modelos.
+					Realizamos en clase ejemplos del tipo de la imagen y durante este tiempo se explica la importancia
+					de una base de datos bien organizada.
+					<br><br>
+					Estos modelos podemos obtenerlos a través de ciertas reglas aplicadas a una descripción proporcionada
+					en clase por el profesor, más tarde, en el mundo laboral estas descripciones serás proporcionadas por un cliente.
+					<br><br>
+				</p>
+			</div>
+			<div class="col-xs-11 col-sm-11 col-md-5 col-lg-5  col-xl-5 text-white  m-3 ">
+				<img src="img/BBDD/modeloER.jpg" height="500" width="500"/>
+			</div>
+		</div>
+
+		<div class="row d-flex linea justify-content-around">
+			<div class="grid-container">
+				<div id="formasNorm" class="grid-item">Formas normales:</div>
+				<div class="grid-item requisitos">Las formas normales protegen nuestras bases de datos de inconsistencias y
+					anomalías lógicas, intentando perder la mínima información posible.
+					En este curso aprenderemos las formas normales de la primera a la tercera y la FNBC ya que son las más comunes en la actualidad.
+					Por supuesto conoceremos la importancia de la normalización y realizaremos practicas.
+				</div>
+				<div class="grid-item masInfo">
+					Puedes aprender más sobre formas normales pinchando en la imagen o dejar que nosotros le enseñemos.
+					Para ello puede inscribirse para el curso que viene rellenando el siguiente
+					 <a href="formulario.html">formulario.</a>
+					Es muy sencillo, sólo introduzca sus datos y le llegará un correo electrónico 
+					para que se matricule cuando esté abierto el plazo de matrículas.
+				</div>
+				<div class="grid-item imagenGrid">
+					<a href="https://guru99.es/database-normalization/" target="_blank">
+						<img class="amplia" src="img/BBDD/fn_img.png"/>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="row d-flex linea justify-content-around">
+			<div class="grid-container">
+				<div id="ddl" class="grid-item">SQL-DDL:</div>
+				<div class="grid-item requisitos">Lenguaje de definición de datos (DDL): 
+					Proporciona órdenes para definir, modificar o eliminar los distintos objetos de la base de datos (tablas, vistas, índices...).
+				</div>
+				<div class="grid-item masInfo">
+					Durante gran parte del segundo trimestre vamos a dedicarnos a DDL, aprenderemos a crear tablas, editarlas, eliminarlas y rellenarlas con datos.
+					Usaremos para ello oracle SQL con sql Developer para hacer más sencillo nuestro trabajo.
+					Crearemos usuarios y conexiones para poder trabajar con cada uno de los enunciados que se propondrán en clase.
+					Una de las partes más importantes de este apartado, será la capacidad de resolver errores que adquiriremos a base de práctica.
+				</div>
+				<div class="grid-item imagenGrid">
+					<a href="https://www.oracle.com/database/" target="_blank">
+						<img class="amplia" src="img/BBDD/odb21-1.png"/>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="row d-flex linea justify-content-around">
+			<div class="col-xs-11 col-sm-11 col-md-5 col-lg-5  col-xl-5 text-white  justify-content-around">
+				<h2 id="select">SQL-SELECT:</h2>
+				<p>
+					A lo largo de esta unidad nos centraremos en la cláusula SELECT. Sin duda es el comando más versátil del lenguaje SQL. <br>
+					El comando SELECT permite:<br>
+					-Obtener datos de ciertas columnas de una tabla (proyección).<br>
+					-Obtener registros (filas) de una tabla de acuerdo con ciertos criterios (selección).<br>
+					-Mezclar datos de tablas diferentes (asociación, join).
+					<br><br>
+					Los SELECT pueden ser complicados y enrevesados, pero son muy potentes.<br>
+					Nos permiten acceder a los datos que tenemos almacenados en la base de datos y poder <i>seleccionar</i> exactamente los que queremos de entre todos los que tenemos.
+				</p>
+			</div>
+			<div class="col-xs-11 col-sm-11 col-md-5 col-lg-5  col-xl-5 text-white m-5 justify-content-around">
+				<img src="img/BBDD/sql-logo.png" height="250" width="500"/>
+			</div>
+		</div>
+
+	</div>
+
+
+    <!-- Pie de página.-->
+
+	<footer class="bg-dark text-center text-white">
+        <!-- Container con padding ajustado -->
+        <div class="container p-4 pb-0">
+
+          <!-- Section: Redes sociales -->
+          <section class="mb-4">
+            <!-- Contacto -->
+
+            <p class="text-white">IES Venancio Blanco - C/ Filipinas, 33. 37003 Salamanca - Tel. 923 18 34 41 - e-mail: 37009131@educa.jcyl.es</p>
+
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/iesvenancioblanco" target="_blank" role="button">
+                <img src="img/facebook.png" height="20" width="20" />
+            </a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/IESVENANCIO" target="_blank" role="button">
+                <img src="img/twitter.png" height="20" width="20"/>
+            </a>
+      
+            <!-- Youtube -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCRxoAPC1re2bWqWIDrvmPwA" target="_blank" role="button">
+                <img src="img/youtube.png" height="20" width="20"/>
+            </a>
+          </section>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://www.iesvenancioblanco.es/" target="_blank">iesvenancioblanco.es</a>
+        </div>
+      </footer>
+    
+</body>
+</html>

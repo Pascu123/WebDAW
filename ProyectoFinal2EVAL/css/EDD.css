@@ -1,0 +1,53 @@
+/* Ajusta el tamaño de la cabecera.*/
+.tamHead{
+    display: block;
+    width: 200px;
+    height: 70px;
+}
+/* Ajusta el tamaño de la imagen del venancio blanco.*/
+.imagini{
+    width: 200px;
+    height: 100%;
+}
+/* Coloca una linea amarilla a modo de separador*/
+.linea{
+    border-bottom: 2px solid yellow;
+}
+/* Ajusta la posición de la barra de navegación.*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Ajusta la posición de la barra de navegación al pasar el ratón por encima.*/
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+/* Tamaño de imagen del carrousel.*/
+.imgCarrousel{
+    height: 400px;
+    width: 100%;
+}
+/* Color de los enlaces.*/
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+/* Imagen fondo.*/
+
+.fondo{
+    background-image:url(img/imgFondo.jpg);
+}
+/* Tamaño imagenes del boddy y transición de ampliar la imagen.*/
+.imgtam{
+    margin-top: 5%;
+    width: 85%;
+    transition-duration: 1s;
+}
+.imgtam:hover{
+      transform: scale(1.1);
+  
+  }
